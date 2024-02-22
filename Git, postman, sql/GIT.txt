@@ -1,0 +1,4 @@
+﻿Para revertir un commit se debe insertar el comando “ git revert idCommit “ y con esto se revierte el commit, para saber el id del commit se podria hacer un “ git log ”.
+
+
+para deployar una rama dev a git se debe hacer un merge de la rama a master “ git merge “ luego en master se crea un tag. para crear un tag se debe escribir el comando “ git tag v1.2.0 “ para este caso luego se debe pushear el tag y master estando en local con el comando “ git push master “ git push –tag “
